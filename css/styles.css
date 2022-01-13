@@ -1,0 +1,66 @@
+/*TAG SELECTORS*/
+
+body {
+    background-color: #b958a5;
+}
+
+hr { 
+    background-color: #b958a5;
+    border-color: #9145b6;
+    border-style: dotted hidden hidden hidden;
+    border-width: 10px;
+    height: 0px;
+    width: 69%;
+}
+
+img:hover {    
+    border-color: #4c3f91;
+    border-style: dotted;
+    border-width: 25px; 
+}
+
+h1 {
+    background-color: #b04996;
+    color: #4c3f91;
+    font-size: 200px;
+}
+
+h3 {
+    color: #4c3f91;
+    font-size: 100px;
+}
+
+h6 {
+    color: #eeaaee;
+}
+
+table {
+    border-color:#4c3f91;
+    border-style: inset;
+    border-width: 420px;
+}
+
+/*CLASS SELECTORS (identify groups of elements)
+
+************** they have priority over TAGS*/
+
+.photo1 {
+    height: 420px; /* the width maintain the proportion */
+}
+
+.photo2 {
+    border-width: 5px;
+    width: 100px; /* the height maintain the proportion */
+}
+
+/*ID SELECTORS (identify single elements)
+
+************** they have priority over CLASSES*/
+
+#first {
+    font-size: 50px;
+}
+
+#second {
+    border-width: 50px;
+}
